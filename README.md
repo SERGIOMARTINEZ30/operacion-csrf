@@ -3,9 +3,10 @@
 **Juego interactivo educativo sobre Cross-Site Request Forgery (CSRF)**
 
 Laboratorio de hacking ético · Universidad Libre
+
 **Integrantes:** Sergio Martinez · Jhon Suarez
 
-🔗 **Jugar en línea:** `https://sergiomartinez30.github.io/operacion-csrf/`
+🔗 **Jugar en línea:** https://sergiomartinez30.github.io/operacion-csrf/
 
 ---
 
