@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Operación CSRF · Juego educativo de ciberseguridad</title>
+  <meta name="description" content="Juego interactivo para aprender qué es CSRF (Cross-Site Request Forgery), cómo funciona y cómo prevenirlo.">
+  <meta name="theme-color" content="#000000">
+  <meta property="og:title" content="Operación CSRF">
+  <meta property="og:description" content="¿Podrás detener una petición falsificada? Aprende ciberseguridad jugando.">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Krona+One&family=Archivo:wght@400;600;800&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="hud" id="hud">
+    <button class="logo" id="btn-inicio" aria-label="Volver al mapa">
+      <span class="logo-mark">CSRF</span><span class="logo-txt">Operación</span>
+    </button>
+    <div class="hud-stats">
+      <div class="stat" title="Puntaje"><span class="stat-lbl">Puntos</span><span id="hud-puntos">0</span></div>
+      <div class="stat" title="Racha de aciertos"><span class="stat-lbl">Racha</span><span id="hud-racha">0</span></div>
+      <div class="stat vidas" id="hud-vidas" title="Vidas" aria-label="Vidas"></div>
+    </div>
+  </header>
+
+  <main id="app" aria-live="polite"></main>
+
+  <div class="toast" id="toast" role="status"></div>
+
+  <footer class="pie">
+    Juego educativo · Laboratorio de hacking ético · Sergio Martinez y Jhon Suarez · Universidad Libre
+    <br>Todos los sitios y datos son ficticios. Practica solo en sistemas con autorización.
+  </footer>
+
+  <script src="js/datos.js"></script>
+  <script src="js/juego.js"></script>
+</body>
+</html>
