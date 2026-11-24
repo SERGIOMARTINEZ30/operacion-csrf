@@ -5,7 +5,7 @@
 Laboratorio de hacking ético · Universidad Libre
 **Integrantes:** Sergio Martinez · Jhon Suarez
 
-🔗 **Jugar en línea:** `PEGAR_AQUÍ_EL_ENLACE_PÚBLICO`
+🔗 **Jugar en línea:** `https://sergiomartinez30.github.io/operacion-csrf/`
 
 ---
 
